@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Public Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #092178e3; /* gray-700 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2d3748; /* gray-800 */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #020c1500;
+  border-radius: 4px;
+   /* gray-100 */
+}
