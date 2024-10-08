@@ -7,7 +7,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Lunar</title>
   </head>
-  <body class="overflow-x-hidden w-screen bg-indigo-100 text-neutral-900">
+  <body class="overflow-x-hidden w-screen bg-indigo-100 text-neutral-800">
     <main class="w-full">
 
       <div class="flex justify-center sticky top-3 z-50">
@@ -52,6 +52,7 @@
           <div class="lg:h-[calc(80vh-9vh)] relative z-20 flex items-center justify-center">
            
             <div class="flex flex-col items-center ">
+              
               <!-- social prouf -->
               <div class="flex items-center gap-3 rounded-full p-2">
                 <div class="flex items-center">
@@ -65,10 +66,13 @@
                 </div>
               </div>
 
+              <!-- Headline & tagline -->
               <div class="mt-5"> 
                 <h1 id="" class="lg:text-7xl headline font-bold text-center text-balance text-slate-900">Shipping seamless <br> experience on the web</h1>
                 <p id="" class="text-center tagline text-balance mt-5 lg:mt-6 text-slate-700">Lorem ipsum dolor sit, amet consectetur adipisicing elit. adipisicing elit. adipisicing elit.  <br> Debitis blanditiis adipisicing elit.  adipisicing elit. minima veniam aperiam, architecto.</p>
               </div>
+
+              <!-- action btn -->
               <div class="flex homebtngroup flex-col lg:flex-row gap-5 lg:gap-8 lg:items-center lg:justify-center mt-6 lg:mt-8">
                 <a href="" class="block p-1 px-3 hover:bg-indigo-600/10 rounded-full duration-300">Watch a demo </a>
                 <a href="" class="bg-gradient-to-b from-indigo-500 to-indigo-700 hover:to-blue-600 transition-all hover:duration-300 text-white p-3 px-6 rounded-full drop-shadow-lg ring-2 ring-indigo-600/20 flex gap-1 items-center">
@@ -83,6 +87,7 @@
             </div>
           </div>
 
+          <!-- illustration -->
           <div class="flex justify-center relative z-20">
             <div class="ring-8 lg:h-[80vh] lg:w-[70vw] imgbox relative z-30 ring-indigo-600/50 rounded-3xl overflow-hidden">
               <img src="/assets/img/dashboard.png" class="h-auto w-full  object-cover" alt="">
@@ -113,9 +118,174 @@
           </div>
         </section>
 
-      <section class="h-[100vh] bg-neutral-100"></section>      
+      <section class="h-[100vh] bg-gradient-to-t from-neutral-100 to-neutral-50"></section>
+      
+      <!-- Pricing section -->
+      <section class="h-max bg-gradient-to-b mb-20 flex justify-center from-neutral-100 to-indigo-100">
+        <div class="lg:w-[80vw] p-4 lg:p-8">
+          <div class="mt-20 flex flex-col items-center">
+            <h3 class="text-3xl lg:text-5xl font-bold text-center"> Pricing that match <br> your needs</h3>
+            <p class="text-center mt-2 text-lg text-neutral-700">boost your CA with Lunar.</p>
+          </div>
+
+          <!-- Pricing boxe -->
+          <div class="grid lg:grid-cols-3 mt-20 lg:mt-28 gap-4 lg:gap-6">
+            
+            <!-- basic plan -->
+            <div class="p-6 rounded-3xl h-max bg-gradient-to-b from-indigo-50 border shadow-sm to-indigo-300/20">
+
+              <!-- Name of the plan -->
+              <div>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-2xl font-semibold">Basic</h3>
+                  <img src="./public/assets/img/lunar icon black.svg" class="h-5 w-5" alt="">
+                </div>
+                <p class="text-neutral-500">Best for small teams</p>
+              </div>
+
+              <!-- price  -->
+              <div class="mt-8 lg:mt-10">
+                <div class="flex items-end gap-2">
+                  <h4 class="text-3xl lg:text-5xl font-semibold">$15</h4>
+                  <p class="text-neutral-600">per month</p>
+                </div>
+              </div>
+
+              <div class="mt-5">
+                <button class="p-2 bg-gradient-to-b from-indigo-500 to-indigo-700 group text-white rounded-md w-full">
+                  <span class="group-hover:ml-2 duration-300">Start your free trial</span>
+                </button>
+              </div>
+
+              <!-- benefits -->
+              <div class="mt-5">
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  
+                  <span><i class='bx bx-x text-red-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-x text-red-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Business -->
+            <div class="p-6 rounded-3xl h-max bg-gradient-to-b from-indigo-50 border shadow-sm to-indigo-600/20">
+
+              <!-- Name of the plan -->
+              <div>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-2xl font-semibold">Business</h3>
+                  <img src="./public/assets/img/lunar icon black w ring.svg" class="h-5 w-5" alt="">
+                </div>
+                <p class="text-neutral-500">Best for growing teams</p>
+              </div>
+
+              <!-- price  -->
+              <div class="mt-8 lg:mt-10">
+                <div class="flex items-end gap-2">
+                  <h4 class="text-3xl lg:text-5xl font-semibold">$50</h4>
+                  <p class="text-neutral-600">per month</p>
+                </div>
+              </div>
+
+              <div class="mt-5">
+                <button class="p-2 bg-gradient-to-b from-indigo-500 to-indigo-700 group text-white rounded-md w-full">
+                  <span class="group-hover:ml-2 duration-300">Get started</span>
+                </button>
+              </div>
+
+              <!-- benefits -->
+              <div class="mt-5">
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-x text-red-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+              </div>
+            </div>
+            <!-- Enterprise -->
+            <div class="p-6 rounded-3xl h-max bg-gradient-to-b from-indigo-50 border shadow-sm to-indigo-300/20">
+
+              <!-- Name of the plan -->
+              <div>
+                <div class="flex items-center justify-between">
+                  <h3 class="text-2xl font-semibold">Enterprise</h3>
+                  <img src="./public/assets/img/lunar icon black.svg" class="h-5 w-5" alt="">
+                </div>
+                <p class="text-neutral-500">Best for large organisations</p>
+              </div>
+
+              <!-- price  -->
+              <div class="mt-8 lg:mt-10">
+                <div class="flex items-end gap-2">
+                  <h4 class="text-3xl lg:text-5xl font-semibold">$75</h4>
+                  <p class="text-neutral-600">per month</p>
+                </div>
+              </div>
+
+              <div class="mt-5">
+                <button class="p-2 bg-gradient-to-b from-indigo-500 to-indigo-700 group text-white rounded-md w-full">
+                  <span class="group-hover:ml-2 duration-300">Get started</span>
+                </button>
+              </div>
+
+              <!-- benefits -->
+              <div class="mt-5">
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-check text-indigo-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  
+                  <span><i class='bx bx-x text-red-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span><i class='bx bx-x text-red-600 text-2xl'></i></span>
+                  <p>4 day trial</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      
+      
+      
+      
       <!-- testimonials -->
-      <section class="h-max bg-indigo-50 border rounded-t-[4rem] flex justify-center">
+      <section class="h-max bg-indigo-50 rounded-t-[4rem] flex justify-center">
         <div class="lg:w-[80vw] p-4 lg:p-8">
           <div class="mt-20 flex flex-col items-center">
             <h3 class="text-3xl lg:text-5xl font-bold"> Trusted by millions </h3>
@@ -349,6 +519,54 @@
 
         </div>
       </section>
+
+      <!-- FAQs -->
+       <section class="flex h-[100vh] justify-center p-4 lg:p-8 bg-gradient-to-b from-indigo-50 to-neutral-100">
+        <div class="lg:w-[80vw] grid lg:grid-cols-2 gap-5 mt-10">
+          
+          <!-- box1 -->
+          <div class="p-4 lg:p-6">
+            <div>
+              <h3 class="text-4xl lg:text-5xl font-semibold">Frequently Asked Questions</h3>
+              <p class="text-neutral-500 text-lg mt-2">You got questions ? we got answers</p>
+            </div>
+          </div>
+
+          <!-- box2 -->
+          <div class="p-4 lg:p-6">
+            <!-- Questions are regrouped by topic -->
+            <div>
+              <div>
+                <p class="text-neutral-500 text-sm">Question topic</p>
+              </div>
+              <div>
+
+                <!-- Question box -->
+                <div class="mt-3 bg-neutral-100">
+                  <button class=" border-t justify-between p-3 px-6 flex items-center w-full">
+                    <span>What is Lunar ?</span>
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                      </svg>                      
+                    </span>
+                  </button>
+
+                  <!-- response box -->
+                  <div class="mt-2 overflow-hidden h-0 border-b">
+                    <div class="px-6 p-3">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repudiandae in vel odit iure tenetur ut, voluptatem vitae corrupti accusamus doloribus voluptatum nobis similique possimus natus eius placeat. Explicabo, porro.
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
     </main>
     <script type="module" src="/main.js"></script>
   </body>
