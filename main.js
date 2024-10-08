@@ -61,4 +61,28 @@ function getLenis(){
 
 getLenis()
 
+// FAQs
+
+let isFAQopen = false
+
+// document.querySelectorAll('.faq_question').forEach(button => {
+//     button.addEventListener('click', () => {
+//         const answer = button.nextElementSibling;
+//         const icon = button.querySelector('.faq_icon');
+
+//         if (answer.classList.contains('hidden')) {
+//             answer.classList.remove('hidden')
+           
+//             icon.classList.toggle('rotate-180');
+
+//             isFAQopen = true
+//         } else {
+//             answer.classList.add('hidden')
+//             icon.classList.toggle('rotate-180');
+
+//             isFAQopen = false
+//         }
+//     });
+// });
+
 
